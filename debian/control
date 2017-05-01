@@ -1,0 +1,29 @@
+Source: gen
+Section: ocaml
+Priority: optional
+Maintainer: Andy Li <andy@onthewings.net>
+Standards-Version: 3.9.8
+Build-Depends:
+ debhelper (>= 9),
+ ocaml-nox (>= 4.02.1),
+ ocaml-findlib,
+ ocamlbuild,
+ dh-ocaml
+Standards-Version: 3.9.8
+Homepage: https://github.com/c-cube/gen
+Vcs-Browser: https://github.com/c-cube/gen
+Vcs-Git: https://github.com/c-cube/gen.git
+
+Package: libgen-ocaml-dev
+Architecture: any
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ ${ocaml:Depends}
+Provides:
+ ${ocaml:Provides}
+Recommends: ocaml-findlib
+Description: simple, efficient iterators for OCaml
+ Iterators for OCaml, both restartable and consumable.
+ The implementation keeps a good balance between simplicity
+ and performance.
