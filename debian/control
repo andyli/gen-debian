@@ -9,7 +9,6 @@ Build-Depends:
  ocaml-findlib,
  ocamlbuild,
  dh-ocaml
-Standards-Version: 3.9.8
 Homepage: https://github.com/c-cube/gen
 Vcs-Browser: https://github.com/c-cube/gen
 Vcs-Git: https://github.com/c-cube/gen.git

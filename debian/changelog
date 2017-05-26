@@ -1,0 +1,5 @@
+gen (0.4.0.1-1) unstable; urgency=low
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Andy Li <andy@onthewings.net>  Fri, 26 May 2017 17:19:54 +0800

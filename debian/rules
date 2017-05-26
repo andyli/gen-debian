@@ -1,0 +1,5 @@
+#!/usr/bin/make -f
+## debian/rules for neko.
+
+%:
+	dh $@ --with ocaml
