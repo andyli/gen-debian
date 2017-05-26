@@ -7,7 +7,6 @@ Build-Depends:
  debhelper (>= 9),
  ocaml-nox (>= 4.02.1),
  ocaml-findlib,
- ocamlbuild,
  dh-ocaml
 Homepage: https://github.com/c-cube/gen
 Vcs-Browser: https://github.com/c-cube/gen
