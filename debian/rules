@@ -1,12 +1,14 @@
 #!/usr/bin/make -f
-## debian/rules for neko.
 
 DESTDIR=$(CURDIR)/debian/tmp
 include /usr/share/ocaml/ocamlvars.mk
-export OCAMLFIND_DESTDIR=$(DESTDIR)/$(OCAML_STDLIB_DIR)
+export OCAMLFIND_DESTDIR=$(DESTDIR)$(OCAML_STDLIB_DIR)
 
 %:
 	dh $@ --with ocaml
+
+override_dh_auto_configure:
+	./configure --destdir '$(DESTDIR)' --prefix /usr --docdir /usr/share/doc/libgen-ocaml-dev
 
 override_dh_auto_install:
 	mkdir -p '$(OCAMLFIND_DESTDIR)'
