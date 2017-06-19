@@ -9,8 +9,8 @@ Build-Depends:
  ocaml-findlib,
  dh-ocaml
 Homepage: https://github.com/c-cube/gen
-Vcs-Browser: https://github.com/c-cube/gen
-Vcs-Git: https://github.com/c-cube/gen.git
+Vcs-Browser: https://github.com/andyli/gen-debian
+Vcs-Git: https://github.com/andyli/gen-debian.git
 
 Package: libgen-ocaml-dev
 Architecture: any
