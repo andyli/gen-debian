@@ -1,5 +1,5 @@
-gen (0.4.0.1-1) unstable; urgency=low
+ocaml-gen (0.4.0.1-1) unstable; urgency=low
 
   * Initial release. (Closes: #865072)
 
- -- Andy Li <andy@onthewings.net> Mon, 19 Jun 2017 11:00:27 +0800
+ -- Andy Li <andy@onthewings.net>  Thu, 22 Jun 2017 23:59:00 +0800

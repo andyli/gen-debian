@@ -1,4 +1,4 @@
-Source: gen
+Source: ocaml-gen
 Section: ocaml
 Priority: optional
 Maintainer: Andy Li <andy@onthewings.net>
